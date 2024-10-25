@@ -1,5 +1,6 @@
 export default [
   {
+    id: 1,
     title: "Empire State Building",
     location: "USA",
     googleMapsUrl: "https://maps.app.goo.gl/jM1iNzJghmvV2YWZA",
@@ -10,8 +11,9 @@ export default [
     imageUrl: "./src/assets/empire-state-bldg.jpg",
   },
   {
+    id: 2,
     title: "St. Basil's Cathedral",
-    location: "Russia",
+    location: "RUSSIA",
     googleMapsUrl: "https://maps.app.goo.gl/jbAf1KzYcSfg8pzSA",
     startDate: "06 Jul, 2003",
     endDate: "10 Jul, 2003",
@@ -20,6 +22,7 @@ export default [
     imageUrl: "./src/assets/cathedral.jpg",
   },
   {
+    id: 3,
     title: "USS Constitution",
     location: "USA",
     googleMapsUrl: "https://maps.app.goo.gl/37abQzcQuQEjnFF4A",
