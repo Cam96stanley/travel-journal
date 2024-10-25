@@ -4,7 +4,7 @@ function Card(props) {
       <div className="place--container">
         <img src={props.place.imageUrl} className="place--image" />
         <div className="place--details">
-          <img src="./public/location-ping.png" className="place--ping" />
+          <img src="public/location-ping.png" className="place--ping" />
           <span className="place--location">{props.place.location}</span>
           <span>
             <a href={props.place.googleMapsUrl} className="place--map">
